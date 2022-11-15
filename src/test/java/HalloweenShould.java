@@ -1,4 +1,4 @@
-import com.cedriccarre.Hallowwen;
+import com.cedriccarre.Halloween;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -18,7 +18,7 @@ public class HalloweenShould {
         packets.add(p1);
         packets.add(p2);
         //Act
-        String actualResult = Hallowwen.givePacket(2 , packets);
+        String actualResult = Halloween.givePacket(2 , packets);
         //Assert
         assertThat(actualResult).isEqualTo("Thank you, strange uncle!");
     }
@@ -31,7 +31,7 @@ public class HalloweenShould {
         packets.add(p1);
         packets.add(p2);
         //Act
-        String actualResult = Hallowwen.givePacket(3 , packets);
+        String actualResult = Halloween.givePacket(3 , packets);
         //Assert
         assertThat(actualResult).isEqualTo("Trick or treat!");
     }
@@ -45,7 +45,7 @@ public class HalloweenShould {
         packets.add(p1);
         packets.add(p2);
         //Act
-        String actualResult = Hallowwen.givePacket(2 , packets);
+        String actualResult = Halloween.givePacket(2 , packets);
         //Assert
         assertThat(actualResult).isEqualTo("Trick or treat!");
     }
@@ -58,7 +58,7 @@ public class HalloweenShould {
         packets.add(p1);
         packets.add(p2);
         //Act
-        String actualResult = Hallowwen.givePacket(2 , packets);
+        String actualResult = Halloween.givePacket(2 , packets);
         //Assert
         assertThat(actualResult).isEqualTo("Trick or treat!");
 
@@ -75,7 +75,7 @@ public class HalloweenShould {
         packets.add(p2);
         packets.add(p3);
         //Act
-        String actualResult = Hallowwen.givePacket(3 , packets);
+        String actualResult = Halloween.givePacket(3 , packets);
         //Assert
         assertThat(actualResult).isEqualTo("Trick or treat!");
     }
@@ -90,7 +90,7 @@ public class HalloweenShould {
         packets.add(p2);
         packets.add(p3);
         //Act
-        String actualResult = Hallowwen.givePacket(3 , packets);
+        String actualResult = Halloween.givePacket(3 , packets);
         //Assert
         assertThat(actualResult).isEqualTo("Thank you, strange uncle!");
     }
@@ -106,15 +106,8 @@ public class HalloweenShould {
         packets.add(p2);
         packets.add(p3);
         //Act
-        String actualResult = Hallowwen.givePacket(3 , packets);
+        String actualResult = Halloween.givePacket(3 , packets);
         //Assert
         assertThat(actualResult).isEqualTo("Trick or treat!");
     }
-
-
-
-
-
-
-
 }
